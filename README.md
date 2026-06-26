@@ -2,7 +2,7 @@
 
 Bu proje; internet altyapısının temel taşı olan DNS (Alan Adı Sistemi) mimarisini anlamak, A ve CNAME kayıt tiplerini kullanarak özel bir alan adını (`aziz-mevlana.me`) hem GitHub Pages bulut altyapısına hem de bağımsız bir DigitalOcean Ubuntu Droplet sunucusuna yönlendirmek amacıyla hazırlanmış bir eğitim dokümantasyonudur.
 
-## 📋 DNS Kayıt Tipleri Özeti
+## DNS Kayıt Tipleri Özeti
 
 * **A (Address) Record:** Bir alan adını doğrudan hedef sunucunun IPv4 adresine bağlar. Uzak sunucu yönlendirmelerinde temel yöntemdir.
 * **CNAME (Canonical Name) Record:** Bir alan adını başka bir alan adına (alias) bağlar. Özellikle bulut sağlayıcıların dinamik URL'lerini maskelemek için kullanılır.
@@ -25,7 +25,7 @@ DNS yönetim paneline girilerek bir takma ad (Alias) kaydı oluşturulmuştur:
 
 ---
 
-##️ Görev 2: DigitalOcean Droplet Üzerinde Custom Domain Yapılandırması
+## Görev 2: DigitalOcean Droplet Üzerinde Custom Domain Yapılandırması
 
 `rsync` ile dağıtımı yapılan ve Nginx tarafından servis edilen statik web sitesini IP adresi yerine `sunucu.aziz-mevlana.me` üzerinden yayına açmak için aşağıdaki adımlar izlenmiştir:
 
@@ -55,3 +55,5 @@ Değişikliklerin ardından konfigürasyon test edilmiş ve servis reload edilmi
 * DNS yönlendirme mantığı, TTL süreleri ve propagasyon (yayılım) süreçlerinin takibi.
 * CNAME ve A kayıtlarının kullanım senaryolarına göre mimari farklılıkları.
 * Nginx HTTP istek başlığı (Host Header) eşleştirme mekanizmasının yapılandırılması.
+
+https://roadmap.sh/projects/basic-dns
