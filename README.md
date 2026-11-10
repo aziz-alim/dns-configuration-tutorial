@@ -17,7 +17,7 @@ GitHub Pages üzerinde barındırılan statik bir web sitesini özel bir alt ala
 DNS yönetim paneline girilerek bir takma ad (Alias) kaydı oluşturulmuştur:
 * **Type:** `CNAME Record`
 * **Host:** `github`
-* **Target:** `aziz-mevlana.github.io.`
+* **Target:** `aziz-alim.github.io.`
 
 ### 2. GitHub Repo Ayarları
 * İlgili GitHub deposunun **Settings -> Pages** sekmesine gidilmiştir.
